@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Product Details</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">E-commerce</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link active" href="index.html" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+    
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="login.html">LOGIN </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registeration.html">REGISTERATION</a>
+            </li>
+    
+          </ul>
+        </div>
+      </nav>
+    <div class="container mt-3">
+        <div class="card border-light justify-content-around">
+            <div class="row col-12 no-gutters">
+                <img src="imgs/8.png" class="card-img col-2">
+                <div class="card border-0 col-10">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Name</h5>
+                        <p class="card-text">Some Details about the product.</p>
+                        <h2 class="card-text text-right mr-4">$ 21</h2>
+                        <div class="col-12 row justify-content-end">
+                        <a href="#" class="btn btn-dark mr-1">Add to cart</a>
+                        <a href="#" class="btn btn-outline-dark ">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link active" href="#">Similar Products</a>
+                  </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Top rated</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Most Viewed</a>
+                </li>
+            
+              </ul>
+            </div>
+          </nav>
+        <div class="row">
+            <div class="col-3 row justify-content-end mx-auto" style="max-height: 23px;">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-header">
+                    Product Name
+                  </div>
+                  <img src="imgs/5.png" class="card-img-top" alt="pic">
+                  <div class="card-header d-flex justify-content-center">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+                      View Details
+                    </button>          </div>
+                </div>
+        
+              </div>
+              <div class="col-3 row justify-content-end mx-auto" style="max-height: 23px;">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-header">
+                    Product Name
+                  </div>
+                  <img src="imgs/6.jpg" class="card-img-top" alt="pic">
+                  <div class="card-header d-flex justify-content-center">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+                      View Details
+                    </button>          </div>
+                </div>
+        
+              </div>
+              <div class="col-3 row justify-content-end mx-auto" style="max-height: 23px;">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-header">
+                    Product Name
+                  </div>
+                  <img src="imgs/7.jpg" class="card-img-top" alt="pic">
+                  <div class="card-header d-flex justify-content-center">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+        
+              </div>
+              <div class="col-3 row justify-content-end mx-auto" style="max-height: 23px;">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-header">
+                    Product Name
+                  </div>
+                  <img src="imgs/8.png" class="card-img-top" alt="pic">
+                  <div class="card-header d-flex justify-content-center">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Product Name</h5>
+              <h2 class="card-text text-right mr-4">$ 21</h2>
+            </div>
+            <div class="modal-body">
+              <div class="card border-light justify-content-around">
+                <div class="row col-12 no-gutters">
+                    <img src="imgs/8.png" class="card-img col-2">
+                    <div class="card border-0 col-10">
+                        <div class="card-body">
+                            <p class="card-text">Some Details about the product.</p>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <a type="button" class="btn btn-secondary" >Add to cart</a>
+              <a type="button" class="btn btn-outline-secondary" href="product_details.html">View more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
